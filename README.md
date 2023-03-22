@@ -8,6 +8,6 @@ A aplicação é desenvolvida utilizando HTML, CSS e JavaScript puro, e não req
 
 Com essa ferramenta, desenvolvedores podem economizar tempo e evitar erros de digitação ao criar código HTML manualmente, além de facilitar a aprendizagem de iniciantes na área.
 
-## Imagem da Aplicação
+## Imagem da Aplicação - https://giulianovianna.github.io/GeradorDeCodigoHTML/
 ![image](https://user-images.githubusercontent.com/101942554/226926613-9804083e-4d31-4a2e-8353-5a6c55dc1e6c.png)
 
