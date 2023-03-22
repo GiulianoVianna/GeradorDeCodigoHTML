@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Tags HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerador de Tags HTML</h1>
+        <div class="input-group">
+            <label for="tags">Selecione uma tag HTML:</label>
+            <select id="tags">
+                <option value=""></option>
+                <option value="p">Parágrafo - p</option>
+                <option value="h1">Título H1 - h1</option>
+                <option value="h2">Título H2 - h2</option>
+                <option value="div">Div - div</option>
+                <option value="span">Span - span</option>
+                <option value="a">Link - a</option>
+                <option value="img">Imagem - img</option>
+                <option value="ul">Lista não ordenada - ul</option>
+                <option value="ol">Lista ordenada - ol</option>
+                <option value="li">Item de lista - li</option>
+                <option value="table">Tabela - table</option>
+                <option value="tr">Linha de tabela - tr</option>
+                <option value="td">Célula de tabela - td</option>
+                <option value="th">Célula de cabeçalho de tabela - th</option>
+                <option value="thead">Cabeçalho de tabela - thead</option>
+                <option value="tbody">Corpo da tabela - tbody</option>
+                <option value="tfoot">Rodapé da tabela - tfoot</option>
+                <option value="form">Formulário - form</option>
+                <option value="input">Campo de texto - input</option>
+                <option value="button">Botão - button</option>
+                <option value="checkbox">Checkbox</option>
+                <option value="radio">Radio</option>
+                <option value="combobox">Combobox</option>
+            </select>          
+        </div>
+        <button id="generate">Gerar código</button>
+        <h2>Código gerado:</h2>
+        <pre id="output"></pre>
+        <h2>Visualização do objeto:</h2>
+        <div id="preview"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
